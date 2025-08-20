@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/ArtiKhareIBM
   gitUsername: ArtiKhareIBM
   gitBranch: main
+services:
+- serviceName: project.serengeti_aztg2_gh.integrations:gcd_extgit
+  packages:
+  - name: Serengeti_Aztg2_GHProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
